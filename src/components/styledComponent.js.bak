@@ -6,9 +6,14 @@ export const HeaderContainer = styled.div`
   height: 50vh;
   color: #ffff;
   padding: 75px;
-  padding-top: 250px;
   background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
   background-size: cover;
+`
+
+export const HeaderTextContainer = styled.div`
+  text-align: left;
+  position: relative;
+  top: 120px;
 `
 
 export const MainContentContainer = styled.div`

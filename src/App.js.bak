@@ -116,7 +116,7 @@ class App extends Component {
     )
     return (
       <div>
-        <HeaderContainer>
+        <HeaderContainer data-testid="artist-details">
           <h1 style={{fontSize: '40px'}}>Ed Sheeran</h1>
           <p>Singer</p>
         </HeaderContainer>
